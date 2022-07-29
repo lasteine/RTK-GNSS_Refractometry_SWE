@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-  - family-names: Steiner
-    given-names: Ladina
-    orcid: https://orcid.org/0000-0002-4958-0849
-title: "Snow water equivalent estimation based on RTK-GNSS refractometry up-component bias, using Emlid Reach M2 .ENU baseline files"
-version: 1.0
-date-released: 2022-08-31
