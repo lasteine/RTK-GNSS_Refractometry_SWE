@@ -1,10 +1,10 @@
 # RTK-GNSS_Refractometry_SWE
 
-Snow water equivalent estimation based on RTK-GNSS (real-time-kinematic Global navigation satellite system).
+Snow water equivalent (SWE) estimation based on RTK-GNSS (real-time-kinematic Global navigation satellite system).
 
 The biased up-component of a short GNSS baseline between a base antenna (mounted on a pole) and a rover antenna (mounted underneath the snowpack) is used in this approach. Emlid Reach M2 receivers are used in a field setup, connected to ublox ANN-MB1 multi-frequency and multi-GNSS antennas. The receivers are set-up in RTK mode (base and rover settings) and the baseline vector (in ENU: East, North, Up) is logged by the receiver and stored in a .ENU file.
 
-The python script contains a workflow from .ENU files reading to plotted SWE timeseries.
+The python script contains a workflow from .ENU solution files reading to filtered and plotted SWE timeseries.
 
 
 The method follows Steiner et al. (2020, 2022):
